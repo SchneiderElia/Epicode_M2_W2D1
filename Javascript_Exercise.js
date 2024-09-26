@@ -3,8 +3,26 @@
 /* ESERCIZIO 1
  Scrivi un algoritmo per trovare il più grande tra due numeri interi.
 */
+let exercise1 = "exercise1"
+console.log(exercise1.toLocaleUpperCase())
 
-/* SCRIVI QUI LA TUA RISPOSTA */
+
+
+let numb1 = 20
+let numb2 = 90
+
+if(numb1 > numb2){
+  console.log(numb1+ "non è maggiore di " +numb2)
+}else{
+  console.log(numb2+ " è maggiore di " +numb1+ " (in numero più grande è) = " +numb2)
+}
+
+
+
+
+
+let space = null
+console.log(space)
 
 /*
 ESERCIZIO 2
