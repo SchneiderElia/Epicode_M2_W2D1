@@ -126,7 +126,7 @@ let n1 = 18
 let n2 = 8
 
 if(n1 === 8 || n2 === 8 ){
-  console.log("il valore di " +n2+ "  uguale a 8")
+  console.log("il valore di " +n2+ " è uguale a 8")
 }
 
 
@@ -151,7 +151,8 @@ if(totalShoppingCart>50 || totalShoppingCart<50){
   console.log("costo spedizione 10 euro ", "TOTALE ", totalShoppingCart+10)
 } 
 
-
+let space6 = null
+console.log(space6)
 
 
 
@@ -160,7 +161,23 @@ if(totalShoppingCart>50 || totalShoppingCart<50){
   Modifica la risposta precedente includendo questa nuova promozione nell'algoritmo, determinando, usando l'algoritmo del codice precedente, se le spedizioni siano gratuite oppure no e e calcolando il totale.
 */
 
-/* SCRIVI QUI LA TUA RISPOSTA */
+let exercise3Extra = "extra3"
+console.log(exercise3Extra.toUpperCase())
+
+let sale = 20
+let totalShoppingCartBF = 52
+
+if(totalShoppingCartBF>50 || totalShoppingCartBF<50){
+  console.log("la spedizione è gratuita", (totalShoppingCartBF)-(totalShoppingCartBF*sale/100))
+}else{
+  console.log("costo spedizione 10 euro ", "TOTALE ", (totalShoppingCartBF+10)-(totalShoppingCartBF*sale/100))
+} 
+
+
+let space7 = null
+console.log(space7)
+
+
 
 /*  ESERCIZIO EXTRA 4
   Usa un operatore ternaio per assegnare ad una variabile chiamata "gender" i valori "male" o "female".
