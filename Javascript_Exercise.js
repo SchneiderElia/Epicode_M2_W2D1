@@ -203,3 +203,69 @@ console.log(space8)
 /* ESERCIZIO EXTRA 5
   Scrivi un algoritmo che iteri i numeri da 1 a 100, stampandoli in console. Se un valore tuttavia è multiplo di 3 (operatore modulo!), stampa al suo posto la parola "Fizz" e se il numero è multiplo di 5, stampa "Buzz". Se le condizioni si verificano entrambe, stampa "FizzBuzz".
 */
+
+let exercise5Extra = "extra5"
+console.log(exercise5Extra.toUpperCase())
+
+
+/* for(i=0; i<100; i++){
+  if(i*3){
+    console.log(i*3,"Fizz")
+    if(i*3===99){
+      break;
+    }if(i*5){
+      console.log(i*5, "Buzz")
+    }if(i*5 ===100){
+      break;
+    }else{
+      console.log(i*3 && i*5, "FizzBuzz")
+    }
+    
+  }
+  
+} */
+
+/* 
+  for(i=0; i<100; i++){
+
+    if (i%3===0){
+      console.log("Fizz")
+    }
+
+    console.log(i+1)
+
+
+
+  } */
+/* 
+
+    for(i=0; i<100; i++){
+    
+      if(i%3===0){
+        console.log(i,"Fizz")
+      }if(i%5===0){
+        console.log(i,"Buzz")
+      }
+
+
+
+    } */
+
+      
+
+    for(i=0; i<=100; i++){
+      
+      let multiploDiTre = i%3===0
+      let multiploDiCinque = i%5===0
+      
+
+      if(multiploDiTre){
+        console.log("Fizz",i)
+      }else if(multiploDiCinque){
+        console.log("Buzz",i)
+      }else{
+        console.log(multiploDiCinque && multiploDiTre,"FizzBuzz",i)
+      }
+      
+
+    }
